@@ -50,7 +50,7 @@ def d_of(polys): return ' '.join('M' + ' L'.join('%.1f,%.1f' % (x, y) for x, y i
 s = [f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="210mm" height="297mm" viewBox="0 0 {A4W} {A4H}" font-family="DejaVu Sans, Arial, sans-serif">',
      f'<rect width="{A4W}" height="{A4H}" fill="#FFFFFF"/>',
      '<g id="zone" fill="none" fill-rule="evenodd" stroke="#5F5F5F" stroke-width="3" stroke-linejoin="round">']
-for i in range(K): s.append(f'<path id="{"paper" if i == K - 1 else "colour-%d" % (i + 1)}" data-colour="{hexs[i]}"{" fill=\"#DEDEDE\"" if i == DARK else ""} d="{d_of(paths[i])}"/>')
+for i in range(K): s.append(f'<path id="{"paper" if i == K - 1 else "colour-%d" % (i + 1)}" data-colour="{hexs[i]}"{" fill=\"#969696\"" if i == DARK else ""} d="{d_of(paths[i])}"/>')
 s.append('</g>\n<g id="numbers" text-anchor="middle" dominant-baseline="central">')
 for n, x, y, z, g in nums: s.append(f'<text x="{x}" y="{y}" font-size="{z:.0f}" fill="#{g:02X}{g:02X}{g:02X}">{n}</text>')
 s.append('</g>')
@@ -80,7 +80,7 @@ for i in range(K):
         pa.moveTo(*p[0])
         for x, y in p[1:]: pa.lineTo(x, y)
         pa.close()
-    if i == DARK: cv.setFillColorRGB(0.87, 0.87, 0.87)
+    if i == DARK: cv.setFillColorRGB(0.59, 0.59, 0.59)
     cv.drawPath(pa, stroke=1, fill=1 if i == DARK else 0, fillMode=0)
 for n, x, y, z, g in nums: txt(str(n), x, y, z, 'DV', (g / 255,) * 3)
 if pr:

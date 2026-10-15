@@ -13,7 +13,7 @@ lbl, pal, K, DARK, H, W, OX, OY, printed = PC.load_state()
 # pagina 1: linee, zone grigie (colore piu' scuro), numeri
 b = np.zeros((H, W), bool); b[:, 1:] |= lbl[:, 1:] != lbl[:, :-1]; b[1:, :] |= lbl[1:, :] != lbl[:-1, :]
 b = cv2.dilate(b.astype(np.uint8), np.ones((2, 2), np.uint8)).astype(bool)
-g = np.full((H, W), 255, np.uint8); g[lbl == DARK] = 222; g[b] = 95
+g = np.full((H, W), 255, np.uint8); g[lbl == DARK] = 150; g[b] = 95  # grigio medio: occhi, bocca e linee del disegno restano leggibili
 g = cv2.GaussianBlur(g, (3, 3), 0.6)
 art = Image.fromarray(g).convert('RGB'); d = ImageDraw.Draw(art)
 fonts = {}

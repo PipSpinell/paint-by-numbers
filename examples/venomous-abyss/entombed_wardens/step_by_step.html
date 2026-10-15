@@ -98,7 +98,7 @@ li.done .meta b { text-decoration: line-through; text-decoration-color: var(--do
       </section>
       <section class="panel how">
         <h2>How to use your markers</h2>
-        <ol><li>Work from colour 1 (lightest) to colour 14 (darkest), one colour at a time.</li><li>For each area, first trace its outline with the marker tip, just inside the printed line.</li><li>Then fill it with straight, parallel strokes in one direction, each stroke slightly overlapping the last.</li><li>Keep a light, even pressure and do not go back over ink that is already dry: that leaves streaks.</li><li>Let light colours dry before painting the dark colours next to them.</li><li>Light grey areas take colour 14. White areas without a number stay unpainted.</li><li>Areas too small for a number are shown in the step-by-step guide (HTML file).</li><li>The name and the signature are already printed: leave them as they are.</li></ol>
+        <ol><li>Work from colour 1 (lightest) to colour 14 (darkest), one colour at a time.</li><li>For each area, first trace its outline with the marker tip, just inside the printed line.</li><li>Then fill it with straight, parallel strokes in one direction, each stroke slightly overlapping the last.</li><li>Keep a light, even pressure and do not go back over ink that is already dry: that leaves streaks.</li><li>Let light colours dry before painting the dark colours next to them.</li><li>Grey areas are the linework and take colour 14. White areas without a number stay unpainted.</li><li>Areas too small for a number are shown in the step-by-step guide (HTML file).</li><li>The name and the signature are already printed: leave them as they are.</li></ol>
       </section>
     </div>
   </div>
@@ -134,7 +134,7 @@ function drawBase() {
     const l = lab[p]; let r = 255, g = 255, b = 255;
     if (l !== paper && done[l + 1]) { [r, g, b] = pal[l] }
     else if (edge[p]) { r = g = b = 95 }
-    else if (l === darkL) { r = g = b = 222 }
+    else if (l === darkL) { r = g = b = 150 }
     o[p * 4] = r; o[p * 4 + 1] = g; o[p * 4 + 2] = b; o[p * 4 + 3] = 255;
   }
   ctx.putImageData(im, 0, 0);

@@ -28,7 +28,7 @@ def notes(n, printed):
          'Then fill it with straight, parallel strokes in one direction, each stroke slightly overlapping the last.',
          'Keep a light, even pressure and do not go back over ink that is already dry: that leaves streaks.',
          'Let light colours dry before painting the dark colours next to them.',
-         f'Light grey areas take colour {n}. White areas without a number stay unpainted.',
+         f'Grey areas are the linework and take colour {n}. White areas without a number stay unpainted.',
          'Areas too small for a number are shown in the step-by-step guide (HTML file).']
     if printed:
         t.append('The name and the signature are already printed: leave them as they are.')

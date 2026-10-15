@@ -164,7 +164,7 @@ function drawBase() {
     const l = lab[p]; let r = 255, g = 255, b = 255;
     if (l !== paper && done[l + 1]) { [r, g, b] = pal[l] }
     else if (edge[p]) { r = g = b = 95 }
-    else if (l === darkL) { r = g = b = 222 }
+    else if (l === darkL) { r = g = b = 150 }
     o[p * 4] = r; o[p * 4 + 1] = g; o[p * 4 + 2] = b; o[p * 4 + 3] = 255;
   }
   ctx.putImageData(im, 0, 0);
