@@ -180,9 +180,12 @@ function drawFocus() {
   const f = cvs[1].getContext('2d'), g = cvs[2].getContext('2d');
   const fi = f.createImageData(W, H), gi = g.createImageData(W, H), fo = fi.data, go = gi.data;
   const k = focus - 1, c = D.colours[k].rgb, fade = document.getElementById('fade').checked;
+  // finished: nothing to highlight, the drawing shows its real colours
+  if (done.slice(1).every(Boolean)) { f.clearRect(0, 0, W, H); g.clearRect(0, 0, W, H); return }
   for (let p = 0; p < W * H; p++) {
-    if (lab[p] === k) { go[p * 4] = c[0]; go[p * 4 + 1] = c[1]; go[p * 4 + 2] = c[2]; go[p * 4 + 3] = 255 }
-    else if (fade) { fo[p * 4] = fo[p * 4 + 1] = fo[p * 4 + 2] = 255; fo[p * 4 + 3] = 115 }
+    const l = lab[p];
+    if (l === k) { go[p * 4] = c[0]; go[p * 4 + 1] = c[1]; go[p * 4 + 2] = c[2]; go[p * 4 + 3] = 255 }
+    else if (fade && !done[l + 1]) { fo[p * 4] = fo[p * 4 + 1] = fo[p * 4 + 2] = 255; fo[p * 4 + 3] = 115 }  // painted colours stay full strength
   }
   f.putImageData(fi, 0, 0); g.putImageData(gi, 0, 0);
   g.lineWidth = 6; g.strokeStyle = getComputedStyle(document.documentElement).getPropertyValue('--accent').trim() || '#d6246e';
