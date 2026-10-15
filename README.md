@@ -11,6 +11,8 @@ Turn an illustration into a printable paint-by-numbers kit for markers:
 
 ![Vashnik the Malignant: original, numbered sheet and marker demo](examples/venomous-abyss/vashnik_the_malignant/overview.png)
 
+Free printable kits and an online painting game: https://pipspipaint.com
+
 Artwork and signature: PipSpi. The examples are the eight bosses of the World of Warcraft raid *Venomous Abyss*.
 
 ## What it does
