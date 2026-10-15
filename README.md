@@ -83,18 +83,18 @@ All scripts live in `pbn/` and write into the current folder. `make_sheet.sh` ru
 
 ## Examples: Venomous Abyss
 
-Each folder in `examples/venomous-abyss/` holds the original illustration and the full kit: the PDF, both pages, the marker demo and the HTML guide. To use a guide, download `step_by_step.html` and open it in your browser.
+Each folder in `examples/venomous-abyss/` holds the original illustration and the full kit: the PDF, both pages, the marker demo and the HTML guide. The guide links open the interactive page in your browser; you can also download `step_by_step.html` and open it offline.
 
 | Boss | Colours | Kit |
 |---|---|---|
-| Nek'zali the Soulcoiler | 14 | [PDF](examples/venomous-abyss/nek_zali_the_soulcoiler/paint_by_numbers_A4.pdf) · [guide](examples/venomous-abyss/nek_zali_the_soulcoiler/step_by_step.html) · [demo](examples/venomous-abyss/nek_zali_the_soulcoiler/marker_demo.png) |
-| The Twin Fangs | 18 | [PDF](examples/venomous-abyss/the_twin_fangs/paint_by_numbers_A4.pdf) · [guide](examples/venomous-abyss/the_twin_fangs/step_by_step.html) · [demo](examples/venomous-abyss/the_twin_fangs/marker_demo.png) |
-| Entombed Wardens | 14 | [PDF](examples/venomous-abyss/entombed_wardens/paint_by_numbers_A4.pdf) · [guide](examples/venomous-abyss/entombed_wardens/step_by_step.html) · [demo](examples/venomous-abyss/entombed_wardens/marker_demo.png) |
-| Vashnik the Malignant | 18 | [PDF](examples/venomous-abyss/vashnik_the_malignant/paint_by_numbers_A4.pdf) · [guide](examples/venomous-abyss/vashnik_the_malignant/step_by_step.html) · [demo](examples/venomous-abyss/vashnik_the_malignant/marker_demo.png) |
-| Mor'zahi – Lost Expedition | 18 | [PDF](examples/venomous-abyss/mor_zahi_lost_expedition/paint_by_numbers_A4.pdf) · [guide](examples/venomous-abyss/mor_zahi_lost_expedition/step_by_step.html) · [demo](examples/venomous-abyss/mor_zahi_lost_expedition/marker_demo.png) |
-| Sszorak | 17 | [PDF](examples/venomous-abyss/sszorak/paint_by_numbers_A4.pdf) · [guide](examples/venomous-abyss/sszorak/step_by_step.html) · [demo](examples/venomous-abyss/sszorak/marker_demo.png) |
-| The Coiled Altar – Zul'jan | 18 | [PDF](examples/venomous-abyss/the_coiled_altar_zul_jan/paint_by_numbers_A4.pdf) · [guide](examples/venomous-abyss/the_coiled_altar_zul_jan/step_by_step.html) · [demo](examples/venomous-abyss/the_coiled_altar_zul_jan/marker_demo.png) |
-| Ula'tek | 18 | [PDF](examples/venomous-abyss/ula_tek/paint_by_numbers_A4.pdf) · [guide](examples/venomous-abyss/ula_tek/step_by_step.html) · [demo](examples/venomous-abyss/ula_tek/marker_demo.png) |
+| Nek'zali the Soulcoiler | 14 | [PDF](examples/venomous-abyss/nek_zali_the_soulcoiler/paint_by_numbers_A4.pdf) · [guide](https://raw.githack.com/PipSpinell/paint-by-numbers/main/examples/venomous-abyss/nek_zali_the_soulcoiler/step_by_step.html) · [demo](examples/venomous-abyss/nek_zali_the_soulcoiler/marker_demo.png) |
+| The Twin Fangs | 18 | [PDF](examples/venomous-abyss/the_twin_fangs/paint_by_numbers_A4.pdf) · [guide](https://raw.githack.com/PipSpinell/paint-by-numbers/main/examples/venomous-abyss/the_twin_fangs/step_by_step.html) · [demo](examples/venomous-abyss/the_twin_fangs/marker_demo.png) |
+| Entombed Wardens | 14 | [PDF](examples/venomous-abyss/entombed_wardens/paint_by_numbers_A4.pdf) · [guide](https://raw.githack.com/PipSpinell/paint-by-numbers/main/examples/venomous-abyss/entombed_wardens/step_by_step.html) · [demo](examples/venomous-abyss/entombed_wardens/marker_demo.png) |
+| Vashnik the Malignant | 18 | [PDF](examples/venomous-abyss/vashnik_the_malignant/paint_by_numbers_A4.pdf) · [guide](https://raw.githack.com/PipSpinell/paint-by-numbers/main/examples/venomous-abyss/vashnik_the_malignant/step_by_step.html) · [demo](examples/venomous-abyss/vashnik_the_malignant/marker_demo.png) |
+| Mor'zahi – Lost Expedition | 18 | [PDF](examples/venomous-abyss/mor_zahi_lost_expedition/paint_by_numbers_A4.pdf) · [guide](https://raw.githack.com/PipSpinell/paint-by-numbers/main/examples/venomous-abyss/mor_zahi_lost_expedition/step_by_step.html) · [demo](examples/venomous-abyss/mor_zahi_lost_expedition/marker_demo.png) |
+| Sszorak | 17 | [PDF](examples/venomous-abyss/sszorak/paint_by_numbers_A4.pdf) · [guide](https://raw.githack.com/PipSpinell/paint-by-numbers/main/examples/venomous-abyss/sszorak/step_by_step.html) · [demo](examples/venomous-abyss/sszorak/marker_demo.png) |
+| The Coiled Altar – Zul'jan | 18 | [PDF](examples/venomous-abyss/the_coiled_altar_zul_jan/paint_by_numbers_A4.pdf) · [guide](https://raw.githack.com/PipSpinell/paint-by-numbers/main/examples/venomous-abyss/the_coiled_altar_zul_jan/step_by_step.html) · [demo](examples/venomous-abyss/the_coiled_altar_zul_jan/marker_demo.png) |
+| Ula'tek | 18 | [PDF](examples/venomous-abyss/ula_tek/paint_by_numbers_A4.pdf) · [guide](https://raw.githack.com/PipSpinell/paint-by-numbers/main/examples/venomous-abyss/ula_tek/step_by_step.html) · [demo](examples/venomous-abyss/ula_tek/marker_demo.png) |
 
 ## Licence
 
