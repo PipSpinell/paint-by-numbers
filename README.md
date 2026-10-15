@@ -19,7 +19,7 @@ Artwork and signature: PipSpi. The examples are the eight bosses of the World of
 - **Keeps the details.** Eyes, teeth, mouths and highlights that contrast with their surroundings stay as their own areas. Slivers too thin to colour with a marker (under about 0.8 mm) merge into the neighbouring area.
 - **Numbers colours from lightest (1) to darkest.** Paint in that order.
 - **Makes the numbers readable but easy to cover.** The smallest number is about 1.7 mm tall. On light colours the numbers are smaller and paler, so a light marker covers them. Areas too narrow for a readable number have none on paper and are circled in the HTML guide.
-- **Treats white as paper.** White areas have no number and no legend entry. Areas of the darkest colour (usually the outlines) are printed in light grey.
+- **Treats white as paper.** White areas have no number and no legend entry. Areas of the darkest colour (usually the outlines) are printed in mid grey, so eyes, mouths and other line details stay readable.
 - **Keeps printed text.** The title band at the bottom and the artist's signature are detected and printed in their original colours. They get no zones or numbers.
 - **Crops white margins** so the drawing fills page 1.
 
@@ -95,6 +95,10 @@ Each folder in `examples/venomous-abyss/` holds the original illustration and th
 | Sszorak | 17 | [PDF](examples/venomous-abyss/sszorak/paint_by_numbers_A4.pdf) · [guide](https://raw.githack.com/PipSpinell/paint-by-numbers/main/examples/venomous-abyss/sszorak/step_by_step.html) · [demo](examples/venomous-abyss/sszorak/marker_demo.png) |
 | The Coiled Altar – Zul'jan | 18 | [PDF](examples/venomous-abyss/the_coiled_altar_zul_jan/paint_by_numbers_A4.pdf) · [guide](https://raw.githack.com/PipSpinell/paint-by-numbers/main/examples/venomous-abyss/the_coiled_altar_zul_jan/step_by_step.html) · [demo](examples/venomous-abyss/the_coiled_altar_zul_jan/marker_demo.png) |
 | Ula'tek | 18 | [PDF](examples/venomous-abyss/ula_tek/paint_by_numbers_A4.pdf) · [guide](https://raw.githack.com/PipSpinell/paint-by-numbers/main/examples/venomous-abyss/ula_tek/step_by_step.html) · [demo](examples/venomous-abyss/ula_tek/marker_demo.png) |
+
+## Support
+
+If you like the kits, you can support PipSpi on Ko-fi: https://ko-fi.com/pipspi
 
 ## Licence
 
